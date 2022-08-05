@@ -13,12 +13,11 @@ class Window : public QWidget
         explicit Window(QWidget *parent = nullptr);
 
     signals:
-    public slots:
-    protected:
-        //void resizeEvent(QResizeEvent *event) override;
-    private:
-        Canvas* canvas;
 
+    public slots:
+
+    private:
+        Canvas *canvas;
 };
 
 #endif // WINDOW_H
