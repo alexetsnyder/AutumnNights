@@ -3,7 +3,7 @@
 #include <QPainter>
 #include <QBrush>
 #include <QPen>
-#include "tile.h"
+#include "grid3d.h"
 
 Canvas::Canvas(QWidget *parent)
     : QWidget{parent}
@@ -23,9 +23,12 @@ void Canvas::draw()
     painter.fillRect(QRect(0, 0, width(), height()), background);
     painter.end();
 
-    Tile tile;
-    tile.setPosCenter(QPoint(width() / 2, height() / 2));
-    tile.drawTo(pixMap);
+    Grid3D grid(QPoint(width(), height()), 10);
+    grid.drawTo(pixMap);
+
+//    Tile tile;
+//    tile.setPosCenter(QPoint(width() / 2, height() / 2));
+//    tile.drawTo(pixMap);
 }
 
 void Canvas::paintEvent(QPaintEvent *event)
