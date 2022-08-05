@@ -13,6 +13,11 @@ Tile::Tile(QPoint leftTop, QPoint size)
     setText("~");
 }
 
+void Tile::setBackground(QColor color)
+{
+    tileBackground = QBrush(color);
+}
+
 void Tile::setText(string text)
 {
     tileText = text;

@@ -24,6 +24,7 @@ void Canvas::draw()
     painter.end();
 
     Grid3D grid(QPoint(width(), height()), 10);
+    grid.setViewport(QRect(100, 100, 700, 300));
     grid.drawTo(pixMap);
 
 //    Tile tile;

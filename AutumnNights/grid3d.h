@@ -12,9 +12,17 @@ class Grid3D : public Coordinate
 
         void init();
 
+        void setViewport(QRect viewport);
+
         void drawTo(QPixmap& pixMap);
 
     private:
+        string GetRandomChar();
+        QColor GetRandomColor();
+        int GetRandomInt(int n, int m);
+
+        bool hasViewport;
+        QRect viewport;
         int rows, cols;
         int x, y, z;
         int tileSize;
