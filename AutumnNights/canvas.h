@@ -10,6 +10,8 @@ class Canvas : public QWidget
     public:
         explicit Canvas(QWidget *parent = nullptr);
 
+        void draw();
+
     signals:
 
     public slots:
@@ -18,7 +20,8 @@ class Canvas : public QWidget
         void paintEvent(QPaintEvent *event) override;
 
     private:
-
+        QPixmap pixMap;
+        QBrush background;
 };
 
 #endif // CANVAS_H

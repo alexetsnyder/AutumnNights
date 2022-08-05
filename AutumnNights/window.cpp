@@ -11,9 +11,11 @@ Window::Window(QWidget *parent)
     QVBoxLayout *mainLayout = new QVBoxLayout;
 
     canvas = new Canvas(this);
-    canvas->setMinimumSize(800, 400);
+    canvas->draw();
 
     mainLayout->addWidget(canvas);
 
     setLayout(mainLayout);
+
+    //canvas->draw();
 }
