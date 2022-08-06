@@ -46,14 +46,14 @@ void Grid3D::drawTo(QPixmap& pixMap)
     {
         int startRow = viewport.left() / tileSize;
         int startCol = viewport.top() / tileSize;
-        int endRow = viewport.width() / tileSize;
-        int endCol = viewport.height() / tileSize;
+        int endRow = viewport.width() / tileSize + startRow;
+        int endCol = viewport.height() / tileSize + startCol;
 
         for (int i = startRow; i < endRow; ++i)
         {
             for (int j = startCol; j < endCol; ++j)
             {
-                grid[i][j].drawTo(pixMap);
+                grid[i][j].drawTo(pixMap, viewport.topLeft());
             }
         }
     }

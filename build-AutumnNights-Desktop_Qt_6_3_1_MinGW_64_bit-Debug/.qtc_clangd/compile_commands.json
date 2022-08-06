@@ -34,7 +34,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -44,9 +44,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -66,10 +66,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights\\canvas.cpp"
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights\\canvas.cpp"
     ],
-    "directory": "C:/dev/alex/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/dev/alex/AutumnNights/AutumnNights/canvas.cpp"
+    "directory": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/AutumnNights/canvas.cpp"
 },
 {
     "arguments": [
@@ -106,7 +106,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -116,9 +116,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -138,10 +138,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights\\coordinate.cpp"
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights\\coordinate.cpp"
     ],
-    "directory": "C:/dev/alex/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/dev/alex/AutumnNights/AutumnNights/coordinate.cpp"
+    "directory": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/AutumnNights/coordinate.cpp"
 },
 {
     "arguments": [
@@ -178,7 +178,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -188,9 +188,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -210,10 +210,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights\\grid3d.cpp"
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights\\grid3d.cpp"
     ],
-    "directory": "C:/dev/alex/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/dev/alex/AutumnNights/AutumnNights/grid3d.cpp"
+    "directory": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/AutumnNights/grid3d.cpp"
 },
 {
     "arguments": [
@@ -250,7 +250,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -260,9 +260,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -282,10 +282,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights\\main.cpp"
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights\\main.cpp"
     ],
-    "directory": "C:/dev/alex/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/dev/alex/AutumnNights/AutumnNights/main.cpp"
+    "directory": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/AutumnNights/main.cpp"
 },
 {
     "arguments": [
@@ -322,7 +322,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -332,9 +332,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -354,10 +354,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights\\tile.cpp"
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights\\tile.cpp"
     ],
-    "directory": "C:/dev/alex/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/dev/alex/AutumnNights/AutumnNights/tile.cpp"
+    "directory": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/AutumnNights/tile.cpp"
 },
 {
     "arguments": [
@@ -394,7 +394,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -404,9 +404,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -426,10 +426,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights\\window.cpp"
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights\\window.cpp"
     ],
-    "directory": "C:/dev/alex/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/dev/alex/AutumnNights/AutumnNights/window.cpp"
+    "directory": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/AutumnNights/window.cpp"
 },
 {
     "arguments": [
@@ -466,7 +466,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -476,9 +476,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -498,10 +498,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights\\canvas.h"
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights\\canvas.h"
     ],
-    "directory": "C:/dev/alex/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/dev/alex/AutumnNights/AutumnNights/canvas.h"
+    "directory": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/AutumnNights/canvas.h"
 },
 {
     "arguments": [
@@ -538,7 +538,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -548,9 +548,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -570,10 +570,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights\\coordinate.h"
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights\\coordinate.h"
     ],
-    "directory": "C:/dev/alex/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/dev/alex/AutumnNights/AutumnNights/coordinate.h"
+    "directory": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/AutumnNights/coordinate.h"
 },
 {
     "arguments": [
@@ -610,7 +610,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -620,9 +620,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -642,10 +642,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights\\grid3d.h"
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights\\grid3d.h"
     ],
-    "directory": "C:/dev/alex/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/dev/alex/AutumnNights/AutumnNights/grid3d.h"
+    "directory": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/AutumnNights/grid3d.h"
 },
 {
     "arguments": [
@@ -682,7 +682,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -692,9 +692,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -714,10 +714,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights\\tile.h"
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights\\tile.h"
     ],
-    "directory": "C:/dev/alex/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/dev/alex/AutumnNights/AutumnNights/tile.h"
+    "directory": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/AutumnNights/tile.h"
 },
 {
     "arguments": [
@@ -754,7 +754,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include",
         "-I",
@@ -764,9 +764,9 @@
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\include\\QtCore",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
         "-I",
-        "C:\\dev\\alex\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -786,9 +786,9 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\dev\\alex\\AutumnNights\\AutumnNights\\window.h"
+        "C:\\Users\\alexe\\OneDrive\\Documents\\GitHub\\AutumnNights\\AutumnNights\\window.h"
     ],
-    "directory": "C:/dev/alex/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/dev/alex/AutumnNights/AutumnNights/window.h"
+    "directory": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/build-AutumnNights-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/alexe/OneDrive/Documents/GitHub/AutumnNights/AutumnNights/window.h"
 }
 ]

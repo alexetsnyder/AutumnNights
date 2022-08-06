@@ -23,6 +23,26 @@ void Tile::setText(string text)
     tileText = text;
 }
 
+void Tile::drawTo(QPixmap& pixMap, QPoint point)
+{
+    int left = leftTop.x() - point.x();
+    int top = leftTop.y() - point.y();
+
+    QPainter painter;
+    painter.begin(&pixMap);
+    painter.setBrush(tileBackground);
+    painter.setPen(tilePen);
+    painter.drawRect(QRect(QPoint(left, top), QSize(width, height)));
+
+    painter.setPen(textPen);
+    painter.setFont(textFont);
+    painter.drawText(
+                QRect(QPoint(left, top), QSize(width, height / 2)),
+                Qt::AlignCenter,
+                QString::fromStdString(tileText));
+    painter.end();
+}
+
 void Tile::drawTo(QPixmap& pixMap)
 {
     QPainter painter;

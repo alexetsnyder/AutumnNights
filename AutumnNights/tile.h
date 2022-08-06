@@ -17,6 +17,7 @@ class Tile : public Coordinate
         void setBackground(QColor color);
 
         void drawTo(QPixmap& pixMap);
+        void drawTo(QPixmap& pixMap, QPoint point);
 
     private:
         string tileText;

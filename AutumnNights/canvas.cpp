@@ -23,13 +23,9 @@ void Canvas::draw()
     painter.fillRect(QRect(0, 0, width(), height()), background);
     painter.end();
 
-    Grid3D grid(QPoint(width(), height()), 10);
-    grid.setViewport(QRect(100, 100, 700, 300));
+    Grid3D grid(QPoint(width() * 2, height() * 2), 10);
+    grid.setViewport(QRect(100, 100, width(), height()));
     grid.drawTo(pixMap);
-
-//    Tile tile;
-//    tile.setPosCenter(QPoint(width() / 2, height() / 2));
-//    tile.drawTo(pixMap);
 }
 
 void Canvas::paintEvent(QPaintEvent *event)
@@ -40,14 +36,31 @@ void Canvas::paintEvent(QPaintEvent *event)
 
     painter.drawPixmap(QPoint(0, 0), pixMap);
 
-//    painter.fillRect(event->rect(), background);
-
-//    painter.setBrush(QBrush(Qt::red));
-//    painter.setPen(QPen(Qt::black));
-
-//    painter.translate(width() / 2, height() / 2);
-
-//    painter.drawRect(QRect(-50, -50, 100, 100));
-
     painter.end();
+}
+
+void Canvas::keyPressEvent(QKeyEvent *event)
+{
+    keys.push_back(event->key());
+}
+
+void Canvas::keyReleaseEvent(QKeyEvent *event)
+{
+    auto i = getIteratorOfKey(event->key());
+    if (i != keys.end())
+    {
+       keys.erase(i);
+    }
+}
+
+vector<int>::iterator Canvas::getIteratorOfKey(int key)
+{
+    for (auto i = keys.begin(); i != keys.end(); ++i)
+    {
+        if (*i == key)
+        {
+            return i;
+        }
+    }
+    return keys.end();
 }
