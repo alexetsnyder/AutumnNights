@@ -18,7 +18,6 @@ class Shader
 
 		void free();
 
-
 	private:
 		string loadFile(string fileName);
 		bool compile(unsigned int shader, char errorMsg[512]);

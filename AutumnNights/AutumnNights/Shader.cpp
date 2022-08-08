@@ -99,7 +99,6 @@ string Shader::loadFile(string fileName)
 		}
 		inFile.close();
 
-		//const char* retValue = file.c_str();
 		return file;
 	}
 
