@@ -5,39 +5,32 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include "Shader.h"
+#include "Window.h"
 
 using namespace std;
 
 void frambuffer_size_callback(GLFWwindow* window, int width, int height);
-void processInput(GLFWwindow* window);
+void processInput(Window& window);
 void openGlTriangle();
-
-const unsigned int SCREEN_WIDTH = 800;
-const unsigned int SCREEN_HEIGHT = 600;
 
 Shader shader;
 unsigned int VAO, VBO;
 
 int main(int argc, char** argv)
 {
-	glfwInit();
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
-	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+	Window window;
 
-	GLFWwindow* window = glfwCreateWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Hello World!", NULL, NULL);
-	if (window == NULL)
+	if (!window.init())
 	{
-		cout << "Error creating glfw window\n";
-		glfwTerminate();
+		cout << "Failed to initiazlize GLFW window.\n";
+		window.free();
 		return -1;
 	}
-	glfwMakeContextCurrent(window);
 
 	if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
 	{
 		cout << "Failed to initialize GLAD.\n";
-		glfwTerminate();
+		window.free();
 		return -1;
 	}
 
@@ -48,11 +41,11 @@ int main(int argc, char** argv)
 	cout << vec.x << vec.y << vec.z << endl;
 
 	glViewport(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
-	glfwSetFramebufferSizeCallback(window, frambuffer_size_callback);
+	window.setFrambufferCallback(frambuffer_size_callback);
 
 	openGlTriangle();
 
-	while (!glfwWindowShouldClose(window))
+	while (window.isRunning())
 	{
 		processInput(window);
 
@@ -64,15 +57,15 @@ int main(int argc, char** argv)
 		glDrawArrays(GL_TRIANGLES, 0, 3);
 		glBindVertexArray(0);
 
-		glfwSwapBuffers(window);
-		glfwPollEvents();
+		window.swapBuffers();
+		window.pollEvents();
 	}
 
 	glDeleteVertexArrays(1, &VAO);
 	glDeleteBuffers(1, &VBO);
 	shader.free();
+	window.free();
 
-	glfwTerminate();
 	return 0;
 }
 
@@ -81,11 +74,11 @@ void frambuffer_size_callback(GLFWwindow* window, int width, int height)
 	glViewport(0, 0, width, height);
 }
 
-void processInput(GLFWwindow* window)
+void processInput(Window& window)
 {
-	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
+	if (window.getKey(GLFW_KEY_ESCAPE) == GLFW_PRESS)
 	{
-		glfwSetWindowShouldClose(window, true);
+		window.close();
 	}
 }
 

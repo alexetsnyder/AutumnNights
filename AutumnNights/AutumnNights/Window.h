@@ -11,16 +11,17 @@ class Window
 		Window();
 		Window(std::string title, int width, int height);
 
-		void init();
+		bool init();
 
 		void setTitle(std::string title);
 		void setSize(int width, int height);
 		void setWidth(int width);
 		void setHeight(int height);
 		void setFrambufferCallback(GLFWframebuffersizefun callback);
+		int getKey(int key);
 
 		bool isRunning();
-		void terminate(int retVal);
+		void close();
 		void swapBuffers();
 		void pollEvents();
 		void free();

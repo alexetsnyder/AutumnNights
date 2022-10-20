@@ -1,5 +1,4 @@
 #include "Window.h"
-#include <iostream>
 
 using namespace std;
 
@@ -17,7 +16,7 @@ Window::Window(string title, int width, int height)
 	init();
 }
 
-void Window::init()
+bool Window::init()
 {
 	glfwInit();
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
@@ -27,10 +26,10 @@ void Window::init()
 	window = glfwCreateWindow(width, height, title.c_str(), NULL, NULL);
 	if (window == NULL)
 	{
-		cout << "Error creating glfw window\n";
-		terminate(-1);
+		return false;
 	}
 	glfwMakeContextCurrent(window);
+	return true;
 }
 
 void Window::setTitle(string title)
@@ -54,10 +53,9 @@ void Window::setHeight(int height)
 	this->height = height;
 }
 
-void Window::terminate(int code)
+void Window::close()
 {
-	free();
-	exit(code);
+	glfwSetWindowShouldClose(this->window, true);
 }
 
 bool Window::isRunning()
@@ -85,3 +83,7 @@ void Window::setFrambufferCallback(GLFWframebuffersizefun callback)
 	glfwSetFramebufferSizeCallback(window, callback);
 }
 
+int Window::getKey(int key)
+{
+	return glfwGetKey(this->window, key);
+}
