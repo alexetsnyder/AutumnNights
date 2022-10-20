@@ -78,8 +78,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\alexe\OneDrive\Documents\GitHub\AutumnNights\AutumnNights\ExternalLibraries\Includes;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\alexe\OneDrive\Documents\GitHub\AutumnNights\AutumnNights\ExternalLibraries\Libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\alexe\Documents\GitHub\AutumnNights\AutumnNights\ExternalLibraries\Includes;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\alexe\Documents\GitHub\AutumnNights\AutumnNights\ExternalLibraries\Libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
